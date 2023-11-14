@@ -1,0 +1,16 @@
+.box{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.child{
+    width: 90%;
+    height: 130px;
+    border: 2px solid red;
+    margin: 10px 0;
+}
+
+@media screen and (width > 1000px) {
+    .box{flex-direction: row;}
+}
